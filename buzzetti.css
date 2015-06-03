@@ -94,8 +94,6 @@ a {
 .container a:visited { color: #D59A7C ;	font-weight: bold}
 .container a:hover { 
 	color: #D59A7C;  
-	border: 2px solid #D59A7C; 
-	padding: 3px;
  	font-weight: bold;
 }
 .container a:active{ 
@@ -237,12 +235,13 @@ a {
 
 .fixed {
   position: relative;
-  min-height: 100%;
+  min-height: 65%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   z-index: 1;
 }
+
 .sectiontext {
   min-height: 25%;
   position: absolute;
@@ -294,20 +293,25 @@ pre.code {
 .fixed.drbatch {
   background-image: url("images/doctorbatch.jpg");
 }
+
 .fixed.ec12 {
   background-image: url("images/ec12.jpg");
 }
+
 .fixed.sauce {
   background-image: url("images/sauce.jpg");
 }
+
 .fixed.willow {
   background-image: url("/images/willow-fall.jpg");
 }
+
 @media only screen and (min-width: 768px) {
   .fixed h1, .fixed h2 {
     font-size: 36px;
   }
 }
+
 @media only screen and (min-width: 1170px) {
   .fixed {
     background-attachment: fixed;
@@ -321,6 +325,7 @@ pre.code {
 .fixed.box {
   border-style: solid;
 }
+
 .scrolling {
   padding: 5px;
   line-height: 1.6;
